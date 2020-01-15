@@ -52,13 +52,14 @@ a:hover {
 }
 
 img {
-  padding: 2rem;
+  padding: 2rem 1rem;
   display: flex;
 }
 
 .img-flex {
   flex-wrap: wrap;
-  width: 66.6666%;
+  display: inline;
+  width: 25em;
 }
 
 @media only screen and (min-width: 25em) {
