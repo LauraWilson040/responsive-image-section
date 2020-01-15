@@ -89,17 +89,19 @@ img {
     display: inline;
   }
 
-  h1,
+  h1 {
+    max-width: 10em;
+  }
+
   p {
-    max-width: 25em;
+    max-width: 15em;
   }
 
   img {
-    display: flex;
+    width: 10em;
   }
 
   .img-flex {
-    flex-wrap: wrap;
     display: inline;
   }
 
@@ -112,7 +114,23 @@ img {
     line-height: 1.5;
   }
 
-  .banner {
+  .text {
+    display: inline;
+  }
+
+  h1 {
+    max-width: 15em;
+  }
+
+  p {
+    max-width: 20em;
+  }
+
+  img {
+    width: 15em;
+  }
+
+  .img-flex {
     display: inline;
   }
 
