@@ -21,20 +21,28 @@ html {
   box-sizing: inherit;
 }
 
+body {
+  margin: 0;
+}
+
 a {
   background-color: #555;
   text-decoration: none;
+  padding: .5em .75em;
   border-radius: 4px;
-  padding: 1rem;
   color: #fff;
 }
 
-a: hover {
+a:hover {
   background-color: #000;
   text-decoration: none;
+  padding: .5em .75em;
   border-radius: 4px;
-  padding: 1rem;
   color: #fff;
+}
+
+img {
+  max-width: 50em;
 }
 
 @media only screen and (min-width: 25em) {
