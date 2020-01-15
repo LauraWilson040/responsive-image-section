@@ -13,7 +13,7 @@ html {
 
   background-color: #e2e2e2;
   font-family: sans-serif;
-  padding: 2rem;
+  padding: 1rem;
   color: #000;
 }
 
@@ -32,6 +32,8 @@ body {
 
 .text {
   display: inline-block;
+  padding-bottom: 1rem;
+  padding-top: 1rem;
   max-width: 50em;
 }
 
@@ -52,6 +54,7 @@ a:hover {
 }
 
 img {
+  align-items: center;
   padding: 2rem 1rem;
   display: flex;
 }
@@ -76,6 +79,10 @@ img {
   html {
     font-size: 110%;
     line-height: 1.4;
+  }
+
+  .img-flex {
+    width: 25em;
   }
 
 }
