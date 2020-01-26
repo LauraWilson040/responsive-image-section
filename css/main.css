@@ -85,6 +85,10 @@ img {
     line-height: 1.4;
   }
 
+  .img-flex {
+    position: absolute;
+  }
+
   .text {
     position: relative;
     max-height: 10em;
@@ -102,10 +106,6 @@ img {
     width: .5em;
   }
 
-  .img-flex {
-    position: absolute;
-  }
-
 }
 
 @media only screen and (min-width: 60em) {
@@ -113,6 +113,11 @@ img {
   html {
     font-size: 120%;
     line-height: 1.5;
+  }
+
+  .img-flex {
+    position: absolute;
+    display: flex;
   }
 
   .text {
@@ -126,16 +131,13 @@ img {
   }
 
   p {
-    max-width: 22em;
+    max-width: 23em;
   }
 
   img {
+    display: inline-block;
+    position: relative;
     width: .5em;
-  }
-
-  .img-flex {
-    position: absolute;
-    display: inline;
   }
 
 }
@@ -144,6 +146,10 @@ img {
 
   html {
     font-size: 130%;
+  }
+
+  .img-flex {
+    position: absolute;
   }
 
   .text {
@@ -161,10 +167,6 @@ img {
 
   img {
     width: .5em;
-  }
-
-  .img-flex {
-    position: absolute;
   }
 
 }
