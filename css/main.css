@@ -86,7 +86,8 @@ img {
   }
 
   .text {
-    display: inline;
+    position: relative;
+    max-height: 10em;
   }
 
   h1 {
@@ -98,11 +99,11 @@ img {
   }
 
   img {
-    width: 10em;
+    width: .5em;
   }
 
   .img-flex {
-    display: inline;
+    position: absolute;
   }
 
 }
@@ -115,23 +116,24 @@ img {
   }
 
   .text {
-    display: inline;
+    position: relative;
+    max-height: 10em;
   }
 
   h1 {
-    max-width: 15em;
+    max-width: 10em;
   }
 
   p {
-    max-width: 20em;
+    max-width: 15em;
   }
 
   img {
-    width: 15em;
+    width: .5em;
   }
 
   .img-flex {
-    display: inline;
+    position: absolute;
   }
 
 }
@@ -140,6 +142,27 @@ img {
 
   html {
     font-size: 130%;
+  }
+
+  .text {
+    position: relative;
+    max-height: 10em;
+  }
+
+  h1 {
+    max-width: 10em;
+  }
+
+  p {
+    max-width: 15em;
+  }
+
+  img {
+    width: .5em;
+  }
+
+  .img-flex {
+    position: absolute;
   }
 
 }
