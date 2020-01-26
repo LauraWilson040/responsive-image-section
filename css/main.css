@@ -86,11 +86,11 @@ img {
   }
 
   .img-flex {
-    position: absolute;
+    position: relative;
+    display: flex;
   }
 
   .text {
-    position: relative;
     max-height: 10em;
   }
 
@@ -115,13 +115,7 @@ img {
     line-height: 1.5;
   }
 
-  .img-flex {
-    position: absolute;
-    display: flex;
-  }
-
   .text {
-    position: relative;
     display: inline;
   }
 
@@ -136,8 +130,7 @@ img {
 
   img {
     display: inline-block;
-    position: relative;
-    width: .5em;
+    display: flex;
   }
 
 }
@@ -163,10 +156,6 @@ img {
 
   p {
     max-width: 15em;
-  }
-
-  img {
-    width: .5em;
   }
 
 }
